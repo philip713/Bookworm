@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E89F0F22CD7756F008AF4BB /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E89F0F12CD7756F008AF4BB /* Book.swift */; };
+		7E89F0F42CD77659008AF4BB /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E89F0F32CD77659008AF4BB /* AddBookView.swift */; };
+		7E89F0F62CD77D0A008AF4BB /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E89F0F52CD77D0A008AF4BB /* RatingView.swift */; };
 		7E8B18C92C9406CA00B9CA1F /* BookwormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8B18C82C9406CA00B9CA1F /* BookwormApp.swift */; };
 		7E8B18CB2C9406CA00B9CA1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8B18CA2C9406CA00B9CA1F /* ContentView.swift */; };
 		7E8B18CD2C9406CB00B9CA1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E8B18CC2C9406CB00B9CA1F /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E89F0F12CD7756F008AF4BB /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		7E89F0F32CD77659008AF4BB /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		7E89F0F52CD77D0A008AF4BB /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		7E8B18C52C9406CA00B9CA1F /* Bookworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8B18C82C9406CA00B9CA1F /* BookwormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormApp.swift; sourceTree = "<group>"; };
 		7E8B18CA2C9406CA00B9CA1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +61,9 @@
 				7E8B18CA2C9406CA00B9CA1F /* ContentView.swift */,
 				7E8B18CC2C9406CB00B9CA1F /* Assets.xcassets */,
 				7E8B18CE2C9406CB00B9CA1F /* Preview Content */,
+				7E89F0F12CD7756F008AF4BB /* Book.swift */,
+				7E89F0F32CD77659008AF4BB /* AddBookView.swift */,
+				7E89F0F52CD77D0A008AF4BB /* RatingView.swift */,
 			);
 			path = Bookworm;
 			sourceTree = "<group>";
@@ -139,6 +148,9 @@
 			files = (
 				7E8B18CB2C9406CA00B9CA1F /* ContentView.swift in Sources */,
 				7E8B18C92C9406CA00B9CA1F /* BookwormApp.swift in Sources */,
+				7E89F0F22CD7756F008AF4BB /* Book.swift in Sources */,
+				7E89F0F62CD77D0A008AF4BB /* RatingView.swift in Sources */,
+				7E89F0F42CD77659008AF4BB /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
